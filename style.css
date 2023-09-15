@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Karla:wght@400;700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap");
+*
+{
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: hsl(204, 43%, 93%);
+}
+.container
+{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    margin-left: 30%;
+    margin-right: 30%;
+    position: relative;
+    line-height: 25px;
+}
+
+.first
+{
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+    grid-column: span 2;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.first h1
+{
+    font-size: 1.5rem;
+    color: rgb(0, 200, 200);
+    padding: 10px 0;
+}
+.first h2
+{
+    font-size: 1rem;
+    color: hsl(71, 73%, 54%);
+    padding: 10px 0;
+}
+.first p
+{
+    color:hsl(218, 22%, 67%);
+    font-size: 0.9rem;
+    padding: 10px 0;
+    text-align: left;
+    width: 60ch;
+}
+.second
+{   
+    background-color:  hsl(179, 62%, 43%);
+    border-radius: 0 0 0 10px;
+    color: hsl(204, 43%, 93%);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.second h1
+{
+    font-size: 1rem;
+}
+.second h2
+{
+    padding: 20px 0 10px 0;
+    font-size: 1.8rem;
+    color: white;
+}
+.second span
+{
+    font-size: .8rem;
+    color: hsl(196, 96%, 72%);
+    position: relative;
+    left: 3%;
+    bottom: 4px;
+}
+.second p
+{
+    padding: 0 0 15px 0;
+}
+
+.second .button
+{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    padding: 15px 90px;
+    border-radius: 5px;
+    color: white;
+}
+.third
+{
+    background-color: hsl(179, 65%, 50%);
+    border-radius: 0 0 10px 0;
+    color: hsl(204, 43%, 93%);
+    padding-left: 30px;
+}
+
+.third h1
+{
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.third h2
+{
+    font-size: .8rem;
+    line-height: 1.2rem;
+    padding-top: 10px;
+}
